@@ -24,15 +24,15 @@ Run terminal for output of the given program.
 End the program.
 ## PROGRAM:
 ```
-Program to mark the maximum of marks using the list method sort
-Developed by:ANANDHAMOORTHY.K
-RegisterNumber: 212222100004
-num=0
-with open("file1.txt","r") as f1:
-    for i in f1:
-        word=i.split()
-        num += len(word)
-print("The number of words are in the file is ",num)
+#Developed by: ANANDHAMOORTHY.K
+#Register No: 212222100004
+n=input('Enter File name: ')
+wordslen=0
+with open(n,'r') as f:
+for line in f:
+words=line.split()
+wordslen+=len(words)
+print("Number of wordds:",wordslen)
 
 ```
 
